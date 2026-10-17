@@ -1,6 +1,6 @@
 # Carpooling Optimization with Alternative Pickup Points (V2)
 
-This repository provides the input data and deterministic data-generation code for the V2 carpooling optimization model, in which each employee may be assigned to either their original pickup point or an alternative pickup point.
+This repository provides the input data and data-generation code for the V2 carpooling optimization model, in which each employee may be assigned to either their original home pickup point or an alternative pickup point.
 
 ## Repository Structure
 
