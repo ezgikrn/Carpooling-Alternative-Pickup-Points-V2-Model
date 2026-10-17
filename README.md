@@ -49,11 +49,10 @@ To generate all 24 V2 instances:
 python pickup_point_generator_v2.py --input-dir ../testproblems --output-dir . --tests 1-24 --seed 123 --overwrite
 ```
 
-To generate only selected instances, such as Tests 9 and 17:
+To generate a subset of the V2 instances, such as Tests 1–4:
 
 ```bash
-python pickup_point_generator_v2.py --input-dir ../testproblems --output-dir . --tests 9,17 --seed 123 --overwrite
-```
+python pickup_point_generator_v2.py --input-dir ../testproblems --output-dir . --tests 1-4 --seed 123 --overwrite
 
 Use `--input-dir` to specify the directory containing the original V1 input files.
 
