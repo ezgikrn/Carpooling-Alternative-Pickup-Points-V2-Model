@@ -53,6 +53,7 @@ To generate a subset of the V2 instances, such as Tests 1–4:
 
 ```bash
 python pickup_point_generator_v2.py --input-dir ../testproblems --output-dir . --tests 1-4 --seed 123 --overwrite
+```
 
 Use `--input-dir` to specify the directory containing the original V1 input files.
 
@@ -63,7 +64,7 @@ The script generates:
 - `Car_Owner/car_owner_testN_v2.csv`
 - `Distance_Matrix/distance_matrix_testN_v2.csv`
 
-The employee-level schedule files are not modified or regenerated. The validated schedules used in the computational experiments are provided separately in the `Schedule/` directory.
+The employee-level schedule files are not modified or regenerated. The schedules used in the computational experiments are provided separately in the `Schedule/` directory.
 
 ## Reproducibility
 
