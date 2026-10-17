@@ -6,7 +6,7 @@ This repository provides the input data and data-generation code for the V2 carp
 
 - `Car_Owner/`: Car-ownership data for the 24 V2 test instances.
 - `Distance_Matrix/`: Distance matrices for the 24 V2 test instances.
-- `Schedule/`: Validated employee schedules used in the computational experiments.
+- `Schedule/`: Employee schedule data for the 24 V2 test instances.
 - `pickup_point_generator_v2.py`: Python script used to generate the V2 car-owner and distance-matrix files from the corresponding V1 instances.
 
 Each data directory contains files for Tests 1–24.
